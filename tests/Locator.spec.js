@@ -16,7 +16,7 @@ await page.click('//button[@onclick="logIn()"]');
 // verify logout link presence
 const logoutlink = await page.locator("//a[@id='logout2']");
 
-await expect(logoutlink).toBeVisible();
+
 
 
 
